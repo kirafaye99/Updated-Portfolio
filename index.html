@@ -11,209 +11,216 @@
 </head>
 
 <body>
+    <!-- top heading -->
     <header class="text-gray-600 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-purple-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              <!-- <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path> -->
             </svg>
-            <span class="ml-3 text-xl">Kira DeMarco.</span>
+            <span class="ml-3 text-xl">Kira DeMarco</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-gray-900">About Me</a>
-            <a class="mr-5 hover:text-gray-900">Work</a>
-            <a class="mr-5 hover:text-gray-900">Contact Me</a>
+            <a href="#about-me" class="mr-5 hover:text-gray-900">About Me</a>
+            <a href="#projects" class="mr-5 hover:text-gray-900">Projects</a>
+            <a href="#contact" class="mr-5 hover:text-gray-900">Contact Me</a>
             <a class="mr-5 hover:text-gray-900">Resume</a>
           </nav>
-          <!-- <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button> -->
         </div>
       </header>
 
+      <!-- about me section -->
       <section class="text-gray-600 body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto">
           <div class="lg:w-4/5 mx-auto flex flex-wrap">
-            <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400">
+            <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="headshot.jpg">
             <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-              <!-- <h2 class="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
-              <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">The Catcher in the Rye</h1> -->
               <div class="flex mb-4">
-                <!-- <span class="flex items-center">
-                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-purple-500" viewBox="0 0 24 24">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                  </svg>
-                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-purple-500" viewBox="0 0 24 24">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                  </svg>
-                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-purple-500" viewBox="0 0 24 24">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                  </svg>
-                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-purple-500" viewBox="0 0 24 24">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                  </svg>
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-purple-500" viewBox="0 0 24 24">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                  </svg>
-                  <!-- <span class="text-gray-600 ml-3">4 Reviews</span> -->
-                <!-- </span> -->
-                <!-- <span class="flex ml-3 pl-3 py-2 border-l-2 border-gray-200 space-x-2s">
-                  <a class="text-gray-500">
-                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                    </svg>
-                  </a>
-                  <a class="text-gray-500">
-                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                    </svg>
-                  </a>
-                  <a class="text-gray-500">
-                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                    </svg>
-                  </a>
-                </span> -->
+                <h1 class="text-gray-900 text-3xl title-font font-medium mb-1" id="about-me">About Me</h1>
               </div>
-              <p class="leading-relaxed">I am a student currently enrolled in the UCSD extension coding bootcamp. I also attend California State
+              <p class="leading-loose text-lg">I am a student currently enrolled in the UCSD extension coding bootcamp. I also attend California State
         University
         San Marcos and am majoring in Computer Science. I expect to graduate in Fall 2023. I am currently working on
-        projects using HTML and CSS coding languages and am eager to learn more.</p>
-              <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
-                <!-- <div class="flex">
-                  <span class="mr-3">Color</span> -->
-                  <!-- <button class="border-2 border-gray-300 rounded-full w-6 h-6 focus:outline-none"></button>
-                  <button class="border-2 border-gray-300 ml-1 bg-gray-700 rounded-full w-6 h-6 focus:outline-none"></button>
-                  <button class="border-2 border-gray-300 ml-1 bg-purple-500 rounded-full w-6 h-6 focus:outline-none"></button>
-                </div> -->
-                <!-- <div class="flex ml-6 items-center"> -->
-                  <!-- <span class="mr-3">Size</span> -->
-                  <!-- <div class="relative"> -->
-                    <!-- <select class="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-purple-200 focus:border-purple-500 text-base pl-3 pr-10">
-                      <option>SM</option>
-                      <option>M</option>
-                      <option>L</option>
-                      <option>XL</option> -->
-                    <!-- </select>
-                    <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
-                        <path d="M6 9l6 6 6-6"></path>
-                      </svg>
-                    </span>
-                  </div>
-                </div>
+        projects using HTML, CSS, and JavaScript coding languages and am eager to learn more.</p>
+      </section>
+
+      <!-- projects section -->
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col">
+            <div class="h-1 bg-gray-200 rounded overflow-hidden">
+              <div class="w-24 h-full bg-purple-500"></div>
+            </div>
+            <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+              <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0" id="projects">Projects</h1>
+            </div>
+          </div>
+          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <a href="https://msaideman.github.io/find-your-forever-friend/" target="_blank" rel="noopener noreferrer"><img alt="content" class="object-cover object-center h-full w-full" src="fyff.jpg"></a>
               </div>
-              <div class="flex">
-                <span class="title-font font-medium text-2xl text-gray-900">$58.00</span>
-                <button class="flex ml-auto text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded">Button</button>
-                <button class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
-                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
-                  </svg>
-                </button> -->
+              <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Find Your Forever Friend</h2>
+              <p class="text-base leading-relaxed mt-2">Pet adoption finder site created using HTML, CSS, Tailwind CSS, Petfinder API, OpenWeather API, Google Maps API, and JavaScript.</p>
+              <a href="https://github.com/MSaideman/find-your-forever-friend" target="_blank" rel="noopener noreferrer" class="text-purple-500 inline-flex items-center mt-3">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <a href="https://kirafaye99.github.io/JavaScript-Quiz/" target="_blank" rel="noopener noreferrer"><img alt="content" class="object-cover object-center h-full w-full" src="js quiz.jpg"></a>
               </div>
+              <h2 class="text-xl font-medium title-font text-gray-900 mt-5">JavaScript Quiz</h2>
+              <p class="text-base leading-relaxed mt-2">Quiz to test JavaScript knowledge created using HTML, CSS, and JavaScript.</p>
+              <a href="https://github.com/kirafaye99/JavaScript-Quiz" target="_blank" rel="noopener noreferrer" class="text-purple-500 inline-flex items-center mt-3">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+            <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <a href="https://kirafaye99.github.io/Work-Day-Scheduler/" target="_blank" rel="noopener noreferrer"><img alt="content" class="object-cover object-center h-full w-full" src="wd schedule.jpg"></a>
+              </div>
+              <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Work Day Scheduler</h2>
+              <p class="text-base leading-relaxed mt-2">Scheduler designed to plan out work day hours created using HTML, CSS, and JavaScript.</p>
+              <a href="https://github.com/kirafaye99/Work-Day-Scheduler" target="_blank" rel="noopener noreferrer" class="text-purple-500 inline-flex items-center mt-3">Learn More
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
       </section>
-    <!-- <header>
 
-        <h1 class=alignLeft>Kira DeMarco</h1>
-        <div class=navBar>
-            <a class=alignRight href="#id1">About Me</a>
-            <a class=alignRight href="#id2">Work</a>
-            <a class=alignRight href="#id3">Contact Me</a>
-        </div>
-    </header>
-    <h1 id="id1">About Me</h1>
-    <img src=>
-    <p>I am a student currently enrolled in the UCSD extension coding bootcamp. I also attend California State
-        University
-        San Marcos and am majoring in Computer Science. I expect to graduate in Fall 2023. I am currently working on
-        projects using HTML and CSS coding languages and am eager to learn more.</p>
-    <h1 id="id2">Work</h1> -->
-    <!-- <div class= "container">
-        <div id="img1">
-        <a href="https://kirafaye99.github.io/Horiseon-Accessiblity/"><img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMVMacf2lRmCo9R_8OYRHGPifd22MNyvAFwg&usqp=CAU" alt= "accessibility symbol"></a>
-            <div class="text">Website Accessibility</div>
-        </div>
+      <!-- contact section -->
+      <section class="bg-gray-100" id="contact">
+        <div class="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+            <div class="lg:py-12 lg:col-span-2">
+                <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+                    <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0" id="projects">Contact Me</h1>
+                  </div>
+              <p class="max-w-xl text-lg">
+                Feel free to contact me and send your info once the form is working!
+              </p>
+      
+              <div class="mt-8">
+                <a href="tel:702249877724" class="text-2xl font-bold text-purple-500"> (702) 249-8724 </a>
+      
+                <a href="mailto:kirademarco99@gmail.com"><address class="mt-2 not-italic">kirademarco99@gmail.com</address></a>
 
-        <div id = 'img2'class="followingImages">
-        <a href="https://kirafaye99.github.io/prework-about-me/"><img src= "https://cdn.ourcodeworld.com/public-media/articles/articleocw-5d07e6b3790af.jpg" alt= "photo of computer displaying code"></a>
-            <div class="text">Personal Website</div>
-        </div>
-
-        <div id = 'img2'class="followingImages">
-        <a href="https://kirafaye99.github.io/Module-1-Project/"><img src= "data:image/png;base64,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" alt= "placeholder image"></a>
-            <div class="text">Contact Information Collection Page</div>
-        </div>
-    </div> -->
-
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-8 col-centered">
-                <div class="maintxt">
-                    My great text.
-                </div>
+                <div class="flex mt-6 space-x-3">
+                    <a href="https://www.facebook.com/kira.demarco" target="_blank" rel="noopener noreferrer" class="p-2 text-purple-500 border border-purple-500 rounded-full border-opacity-25">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          fill-rule="evenodd"
+                          d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </a>
+        
+                    <a href="https://www.instagram.com/kirademarco/" target="_blank" rel="noopener noreferrer" class="p-2 text-purple-500 border border-purple-500 rounded-full border-opacity-25">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          fill-rule="evenodd"
+                          d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </a>
+        
+                    <a href="https://github.com/kirafaye99" target="_blank" rel="noopener noreferrer" class="p-2 text-purple-500 border border-purple-500 rounded-full border-opacity-25">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          fill-rule="evenodd"
+                          d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </a>
+        
+                    <a href="https://www.linkedin.com/in/kira-demarco-42073720a/" target="_blank" rel="noopener noreferrer" class="p-2 text-purple-500 border border-purple-500 rounded-full border-opacity-25">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                          fill-rule="evenodd"
+                          d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                          clip-rule="evenodd"
+                        />
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                      </svg>
+                    </a>
+                  </div>
+              </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-8 col-centered">
-                <div class="maintxt">
-                    My great text.
+      
+            <div class="p-8 bg-white rounded-lg shadow-lg lg:p-12 lg:col-span-3">
+              <form action="" class="space-y-4">
+                <div>
+                  <label class="sr-only" for="name">Name</label>
+                  <input class="w-full p-3 text-sm border-gray-200 rounded-lg" placeholder="Name" type="text" id="name" />
                 </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- <img src="purple box.png" class="img-fluid" alt="purple box"> -->
-
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-8 col-centered">
-                <div class="maintxt">
-                    <img src="purple box.png" class="img-responsive">
-                    <span class="overlay-text">My super text.</span>
+      
+                <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                  <div>
+                    <label class="sr-only" for="email">Email</label>
+                    <input
+                      class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                      placeholder="Email address"
+                      type="email"
+                      id="email"
+                    />
+                  </div>
+      
+                  <div>
+                    <label class="sr-only" for="phone">Phone</label>
+                    <input
+                      class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                      placeholder="Phone Number"
+                      type="tel"
+                      id="phone"
+                    />
+                  </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-8 col-centered">
-                <div class="maintxt">
-                    <img src="purple box.png" class="img-responsive">
-                    <span class="overlay-text">My super text.</span>
+      
+                <div>
+                  <label class="sr-only" for="message">Message</label>
+                  <textarea
+                    class="w-full p-3 text-sm border-gray-200 rounded-lg"
+                    placeholder="Message"
+                    rows="8"
+                    id="message"
+                  ></textarea>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-8 col-centered">
-                <div class="maintxt">
-                    <img src="purple box.png" class="img-responsive">
-                    <span class="overlay-text">My super text.</span>
+      
+                <div class="mt-4">
+                  <button
+                    type="submit"
+                    class="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-purple-500 rounded-lg sm:w-auto"
+                  >
+                    <span class="font-medium"> Send </span>
+      
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-5 h-5 ml-3"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </button>
                 </div>
+              </form>
             </div>
+          </div>
         </div>
-    </div>
- -->
-
-    <h1 id="id3">Contact Me</h1>
-    <span class= "contact">
-        <h2><a href="tel:702249877724" target="_blank">(702) 249-8724</a></h2>
-        <h2><a href="mailto:kirademarco99@gmail.com" target="_blank">kirademarco99@gmail.com</a></h2>
-        <h2><a href="https://github.com/kirafaye99" target="_blank">Github</a></h2>
-        <h2><a href="https://www.instagram.com/kirademarco/" target="_blank">Instagram</a></h2>
-    </span>
+      </section>
+      
 </body>
 
 </html>
