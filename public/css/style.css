@@ -2,5 +2,9 @@ html {
     scroll-behavior: smooth;
   };
 
+/* header {
+    position: fixed;
+} */
+
 .maintxt {position: relative;}
 .maintxt > img, .overlay-text {position: absolute;}
